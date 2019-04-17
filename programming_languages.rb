@@ -5,5 +5,5 @@ def reformat_languages(languages)
       if new_hash[name]
         new_hash[name][:style] << type
       else
-        new_hash[name] = { :type => data[:type], 
+        new_hash[name] = { :type => data[:type], :style => 
 end
