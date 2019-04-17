@@ -4,4 +4,5 @@ def reformat_languages(languages)
     language_stuff.each do |name, data|
       data.each do |data_name, value|
         if new_hash.key?(name) == false
+          
 end
