@@ -4,4 +4,6 @@ def reformat_languages(languages)
     language_stuff.each do |name, data|
       if new_hash[name]
         new_hash[name][:style] << type
+      else
+        
 end
