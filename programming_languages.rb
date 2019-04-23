@@ -11,3 +11,7 @@ def reformat_languages(languages)
   end
   return new_hash
 end
+
+def hello
+  puts 'hello world'
+end
